@@ -30,19 +30,25 @@ header {
 }
 
 .logo {
+    display: flex;
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    flex: 1;
 }
 
-header li {
-    display: inline;
-
+header nav {
+    display: flex;
+    flex: 1;
 }
 
-header a {
+header ul {
+    display: flex;
+    list-style: none;
+}
+header li a {
     color: black;
-    text-decoration-line: none;
+    text-decoration: none;
     margin: 1rem;
-}
 
 /* banner */
 #banner {
